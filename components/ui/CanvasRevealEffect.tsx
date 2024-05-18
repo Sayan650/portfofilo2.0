@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@/lib/cn";
+import { cn } from "@/lib/cn"
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
 import * as THREE from "three";
@@ -282,12 +282,11 @@ const ShaderMaterial = ({
   }, [size.width, size.height, source]);
 
   return (
-    // <mesh ref={ref as any}>
-    //   <planeGeometry args={[2, 2]} />
-    //   <primitive object={material} attach="material" />
-    // </mesh>
-    <></>
-  )
+    <mesh ref={ref as any}>
+      <planeGeometry args={[2, 2]} />
+      <primitive object={material} attach="material" />
+    </mesh>
+  );
 };
 
 const Shader: React.FC<ShaderProps> = ({ source, uniforms, maxFps = 60 }) => {

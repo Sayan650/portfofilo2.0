@@ -18,7 +18,7 @@ const Hero = () => {
         />
         <Spotlight
           className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
+          fill="blue-400"
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
@@ -47,12 +47,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Transforming Visions into Intuitive User Interfaces"
             className="text-center text-[40px] md:text-6xl lg:text-7xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Sayan, a Next.js Developer based in India.
+            Hi! I&apos;m Sayan, a Web App Developer based in India.
           </p>
 
           <a href="#about">
