@@ -205,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      href: "https://github.com/Sayan650"
     },
     {
       id: 2,
       img: "/twit.svg",
+      href: "https://x.com/sayanp650"
     },
     {
       id: 3,
       img: "/link.svg",
+      href: "https://www.linkedin.com/in/sayan-paul-nitdgp/",
     },
   ];
